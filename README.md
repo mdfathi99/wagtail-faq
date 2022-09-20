@@ -653,7 +653,7 @@ api_router.register_endpoint("pages", AllPagesAPIViewSet)
 
 Of course you can do whatever else tricks you want there to enable your API only for specific pages.
 
-### How I can get JSON Render with typing `?format=json`?
+### How I can get JSON Render without typing `?format=json`?
 
 By default Wagtail returns HTML Rendered Response. To get JSON render add this inside your `api.py`
 
